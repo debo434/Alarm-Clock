@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clock {
+    /*position: absolute;*/
+    
+    /*transform: translateX(-50%) translateY(-50%);*/
+    color: #17D4FE;
+    font-size: 3.9rem;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+   
+
+
+}
+.width{
+    width: 30%;
+}
+
+.inputAlam {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.input{
+    width: 30px;
+}
+.input-am-pm{
+    width: 60px;
+}
+
+#showAlam{
+    width: 30%;
+}
+.myAlam{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
